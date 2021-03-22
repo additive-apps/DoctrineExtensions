@@ -5,7 +5,7 @@ namespace Gedmo\Translator\Document;
 use Gedmo\Translator\Translation as BaseTranslation;
 use Doctrine\ODM\MongoDB\Mapping\Annotations\MappedSuperclass;
 use Doctrine\ODM\MongoDB\Mapping\Annotations\Id;
-use Doctrine\ODM\MongoDB\Mapping\Annotations\String as MongoString;
+use Doctrine\ODM\MongoDB\Mapping\Annotations\Field(type="string") as MongoString;
 
 /**
  * Document translation class.

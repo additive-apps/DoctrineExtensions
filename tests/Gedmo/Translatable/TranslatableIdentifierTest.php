@@ -4,7 +4,7 @@ namespace Gedmo\Translatable;
 
 use Doctrine\Common\EventManager;
 use Tool\BaseTestCaseORM;
-use Translatable\Fixture\StringIdentifier;
+use Translatable\Fixture\Field(type="string")Identifier;
 
 /**
  * These are tests for translatable behavior
@@ -15,7 +15,7 @@ use Translatable\Fixture\StringIdentifier;
  */
 class TranslatableIdentifierTest extends BaseTestCaseORM
 {
-    const FIXTURE = 'Translatable\\Fixture\\StringIdentifier';
+    const FIXTURE = 'Translatable\\Fixture\\Field(type="string")Identifier';
     const TRANSLATION = 'Gedmo\\Translatable\\Entity\\Translation';
 
     private $testObjectId;

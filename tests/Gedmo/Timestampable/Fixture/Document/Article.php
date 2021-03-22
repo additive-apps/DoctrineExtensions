@@ -14,7 +14,7 @@ class Article
     private $id;
 
     /**
-     * @ODM\String
+     * @ODM\Field(type="string")
      */
     private $title;
 
@@ -56,7 +56,7 @@ class Article
 
     /**
      * @var bool
-     * @ODM\Boolean
+     * @ODM\Field(type="bool")
      */
     private $isReady = false;
 
