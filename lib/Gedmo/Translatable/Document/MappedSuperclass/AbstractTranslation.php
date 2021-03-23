@@ -28,7 +28,7 @@ abstract class AbstractTranslation
     /**
      * @var string $objectClass
      *
-     * @MongoODM\Field(type="string")
+     * @MongoODM\Field(type="string", name="object_class")
      */
     protected $objectClass;
 
@@ -42,7 +42,7 @@ abstract class AbstractTranslation
     /**
      * @var string $foreignKey
      *
-     * @MongoODM\Field(type="string")(name="foreign_key")
+     * @MongoODM\Field(type="string", name="foreign_key")
      */
     protected $foreignKey;
 
